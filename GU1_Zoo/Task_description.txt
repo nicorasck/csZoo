@@ -1,0 +1,29 @@
+------------- Modellera ett Zoo -------------
+
+Modellera ett djur med en klass csAnimal. Djuret har ett namn (namn), ålder (age),  
+Djursort (kind) och humör (mood). 
+
+    Kind - Moose, Wolf, Deer, Eagle, Hawk, Aligator, Elephant, Lion, Monkey,  
+    Mood - Happy, Sleepy, Happy, Hungry, Lazy, Quick, Slow 
+
+Skapa en random-constructor, copy-constructor  
+Skapa en ToString() som presenterar djuret, t ex ”Max the Happy Aligator” 
+
+Modellera ett Zoo med en class csZoo. Ett Zoo ska ha ett namn och ett antal djur. 
+
+Skapa en constructor som ger ditt Zoo ett namn och skapar ett antal djur.  
+Namn och antal är parametrar till constructorn 
+Skapa en ToString() som presenterar djuren i ditt zoo 
+
+Gör ett program som skapar och skriver ut
+- ett zoo kallat ”Small Zoo” med 5 djur
+- ett zoo kallat ”Large Zoo” med 25 djur 
+
+Mall för att starta finns på 
+https://github.com/SEIDOAB-BEOP/GU1_Zoo.git 
+
+------------- Avancerat -------------
+Skapa en tom constructor till csZoo som skapar ett zoo som har djur där det för varje 
+djurtyp finns ett djur för varje humör.    
+Dvs en Moose-Happy, Moose-Sleepy, .., Moose-Slow, .., Monkey-Happy, Monkey
+Sleepy, .., Monkey-Slow 
